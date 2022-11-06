@@ -30,17 +30,14 @@
 
     <form action="">
         <label for="ime">Ime</label>
-        <input type="text" id="ime" placeholder="Vaše ime..." autofocus required>
+        <input type="text" id="ime" placeholder="Ime..." autofocus required>
         <label for="prezime">Prezime</label>
-        <input type="text" id="prezime" placeholder="Vaše prezime..." required>
+        <input type="text" id="prezime" placeholder="Prezime..." required>
         <label for="lozinka">Password</label>
-        <input type="password" id="lozinka" maxlength="10" required>
         <label for="email">E-mail</label>
         <input type="email" id="email" required>
-        <label for="web">Web adresa</label>
-        <input type="url" id="web" placeholder="grf.unizg.hr">
-        <label for="rodjendan">Datum rođenja</label>
-        <input type="date" id="rodjendan">
+        <label for="datum">Datum usluge</label>
+        <input type="date" id="datum">
         <label for="mobilni">Kontakt broj</label>
         <input type="number" id="mobilni">
 
@@ -52,13 +49,13 @@
         
         <fieldset>
             <legend>Obaberi uslugu</legend>
-            <input type="radio" value="ORP" id="ORP" name="obvezni"><label for="ORP">Snimanje</label> 
-            <input type="radio" value="RF1" id="RF1" name="obvezni"><label for="RF1">Fotografiranje</label> 
-            <input type="radio" value="TF1" id="TF1" name="obvezni"><label for="TF1">Montaža</label> 
+            <input type="radio" value="Snimanje" id="Snimanje" name="usluga"><label for="Snimanje">Snimanje</label> 
+            <input type="radio" value="Fotografiranje" id="Fotografiranje" name="usluga"><label for="Fotografiranje">Fotografiranje</label> 
+            <input type="radio" value="Montaža" id="Montaža" name="usluga"><label for="Montaža">Montaža</label> 
         </fieldset>
 
-        <label for="izborni">Izaberite način kontaktiranja</label>
-        <select name="izborni">
+        <label for="kontakt">Izaberite način kontaktiranja</label>
+        <select name="kontakt">
             <option>Telefon</option>
             <option>Mail</option>
         </select>
@@ -70,7 +67,7 @@
         <input type="text" id="poruka" name="poruka">
 
         <input type="reset" value="Poništi">
-        <input type="submit" value="Prihvati">
+        <input type="submit" value="Pošalji">
     </form>  </center>
     
 </body>
